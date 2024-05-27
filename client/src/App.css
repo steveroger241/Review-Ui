@@ -1,0 +1,60 @@
+h1{
+    margin-left: 20px;
+}
+
+.review-list-component {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-user-component {
+    margin: 10px;
+    padding: 2px;
+}
+
+.review-user, .review-rating, .review-comment{
+    margin: 10px;
+}
+
+.visible {
+    background-color: rgb(110, 110, 110);
+    color: white;
+    border-radius: 1rem;
+    padding: 2px;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -100%);
+    pointer-events: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.filled {
+    color: gold;
+}
+
+.not-filled {
+    color: black;
+}
+
+.Positive:hover {
+    background-color: #D9F2DD;
+}
+
+.Negative:hover {
+    background-color: #F2DBD9;
+}
+
+.Mixed:hover {
+    background-color: #e8bd6d3d;
+}
+
+.Neutral:hover {
+    background-color: #eaf09b6b;
+}
+
+.None:hover {
+    background-color: #dbd9f2;
+}
